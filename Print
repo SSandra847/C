@@ -1,0 +1,12 @@
+#include <cstdlib>
+#include <iostream> 
+using namespace std; 
+int main(int argc, char *argv[]) 
+{ 
+    int age; 
+    age=25; 
+    cout<<" You are "<<age<<" years old.\n"; 
+    cout<<" You are too young to play the game.\n"; 
+    system("PAUSE"); 
+    return EXIT_SUCCESS; 
+}
