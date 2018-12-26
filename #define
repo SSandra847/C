@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+#define L 10   
+#define W  5
+#define NEWLINE '\n'
+
+int main() {
+   int area;  
+   
+   area = L * W;
+   cout << area;
+   cout << NEWLINE;
+   return 0;
+}
