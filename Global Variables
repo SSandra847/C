@@ -1,0 +1,23 @@
+#include <iostream>
+#include <stdlib.h>
+
+using namespace std;
+ 
+// Global variable declaration:
+int g = rand() % 25;
+ 
+int main () {
+    /* initialize random seed: */
+    srand (time(NULL));
+
+    // Local variable declaration:
+    int g;
+
+    /* generate secret number between 1 and 10: */
+    g = rand() % 10;
+    
+ 
+   cout << g;
+ 
+   return 0;
+}
